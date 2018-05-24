@@ -125,7 +125,7 @@ footer {
     max-height: 70px;
     max-width: 100%;
 }
-header.masthead {
+.masthead {
     background-image: url(../img/sample/phongngu.jpeg);
 }
 @media (min-width: 992px){
@@ -187,6 +187,7 @@ header.masthead {
 }
 .carousel-inner .carousel-item > img {
     -webkit-animation: zoom 18s;
+    -moz-animation: zoom 18s;
     animation: zoom 18s;
 }
 /* Zoom effect - end */
@@ -213,16 +214,15 @@ header.masthead {
     .carousel-fade .carousel-inner > .carousel-item.carousel-item-next, .carousel-fade .carousel-inner > .carousel-item.active.carousel-item-right {
         opacity: 0;
         -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
    }
     .carousel-fade .carousel-inner > .carousel-item.carousel-item-prev, .carousel-fade .carousel-inner > .carousel-item.active.carousel-item-left {
         opacity: 0;
-        -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
    }
     .carousel-fade .carousel-inner > .carousel-item.carousel-item-next.carousel-item-left, .carousel-fade .carousel-inner > .carousel-item.carousel-item-prev.carousel-item-right, .carousel-fade .carousel-inner > .carousel-item.active {
         opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
    }
 }
@@ -230,10 +230,10 @@ header.masthead {
     text-shadow: 0 1px 4px rgb(29, 41, 66);
     font-size:16px 
 }
-.carousel-caption h3 {
-    font-size: 24px;
-    font-family: 'Lato', sans-serif;
-}
+/* .carousel-caption h3 {*/
+/*     font-size: 24px;*/
+/*     font-family: 'Lato', sans-serif;*/
+/*}*/
 /*Slide Fade effect - start*/
 section h3.section-subheading {
     font-size: 16px;
