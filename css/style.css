@@ -6,9 +6,24 @@
         height: 100vh;
    }
 }
+.hotline-top{
+    display: none;
+}
 @media (max-width: 768px) {
     .carousel-item img{
         height: 70vh;
+   }
+   .hotline-top{
+       display: block
+   }
+   /* HOTLINE */
+   #contact-button-phone{
+       display: none;
+   }
+   /* Form lien he */
+   #contact-button {
+    width: 120px!important;
+    padding: 10px;
    }
 }
 @media (max-width: 600px) {
