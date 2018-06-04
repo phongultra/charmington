@@ -1,6 +1,9 @@
 .carousel-item img{
     width: auto;
 }
+#slideNhaMau .carousel-item img{
+    height: 40vh;
+}
 @media (min-width: 769px) {
     .carousel-item img{
         height: 100vh;
@@ -200,7 +203,7 @@ header.masthead {
         transform: scale(1.2, 1.2);
    }
 }
-.carousel-inner .carousel-item > img {
+.carousel-fade .carousel-inner .carousel-item > img {
     -webkit-animation: zoom 18s;
     animation: zoom 18s;
 }

@@ -166,7 +166,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <img style="max-height: 170px; max-width: 100%" class="test-lazy-load" src="img/logos/charmington-iris-logo.png" alt="">
+          <img style="max-height: 170px; max-width: 100%; margin-bottom: 15px;" class="test-lazy-load" src="img/logos/charmington-iris-logo.png"
+            alt="">
           <iframe style="width:90%" width="560" height="315" src="https://www.youtube.com/embed/oKg3uGBSXEw?rel=0&amp;controls=0&amp;showinfo=0"
             frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           <!-- <h2 class="section-heading text-uppercase">Dự án Charmington Iris quận 5</h2>
@@ -194,8 +195,7 @@
           </p>
           <p>
             <i class="fa fa-map"></i> Diện tích đỗ xe:
-            <b>26.000</b>
-            <sup>2</sup>
+            <b>26.000m²</b>
           </p>
         </div>
         <div class="col-md-4">
@@ -211,8 +211,7 @@
             <b>35 tầng và 01 tầng hầm</b>
           </p>
           <i class="fa fa-map"></i> Quy mô:
-          <b>16645.3m
-            <sup>2</sup>
+          <b>16645.3m²
           </b>
           </p>
           <p>
@@ -284,47 +283,207 @@
       </div>
       <div class="row">
         <div class="col-lg-12 text-center">
-          <img style="max-width: 100%; max-height: 500px" src="img/sample/vitri.jpg" alt="">
+          <img style="max-width: 100%; max-height: 500px" src="img/sample/img-maps.gif" alt="">
         </div>
       </div>
   </section>
 
 
-  <section class="bg-light" id="matbang">
+  <!-- <section class="bg-light" id="matbang">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Mặt bằng dự án</h2>
           <img style="width: 80%; height: auto" src="img/sample/matbang.jpg" alt="">
         </div>
-  </section>
+  </section> -->
 
   <!-- THONG TIN CAN HO -->
   <section class="bg-light" id="canho">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Thông tin căn hộ</h2>
+        <div class="col-lg-12">
+          <h2 class="section-heading text-uppercase text-center">Thông tin căn hộ</h2>
 
           <nav>
             <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-              <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#ch-1pn" role="tab" aria-controls="nav-home"
-                aria-selected="true">1 PN (A1)</a>
-              <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#ch-2pn" role="tab" aria-controls="nav-profile"
-                aria-selected="false">2 PN (B1)</a>
-              <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#ch-3pn" role="tab" aria-controls="nav-contact"
-                aria-selected="false">3 PN (C1)</a>
+              <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#tablayout" role="tab" aria-controls="nav-home"
+                aria-selected="true">Layout căn hộ</a>
+              <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#tabmatbang" role="tab" aria-controls="nav-profile"
+                aria-selected="false">Mặt bằng tầng</a>
+              <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#tabnhamau" role="tab" aria-controls="nav-contact"
+                aria-selected="false">Căn hộ mẫu</a>
             </div>
           </nav>
+
           <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="ch-1pn" role="tabpanel" aria-labelledby="nav-home-tab">
-              <img style="width: 100%; height:auto" src="img/sample/canho2pn.jpg" alt="">
+            <div class="tab-pane fade show active" id="tablayout" role="tabpanel" aria-labelledby="nav-home-tab">
+              <div class="container">
+                <div class="row">
+                  <form class="form-horizontal" action="">
+                    <div class="form-group">
+                      <br/>
+                      <div class="row">
+                        <!-- <label class="control-label col-md-3 text-right" for="">Chọn căn hộ:</label> -->
+                        <div class="col-md-4 col-sm-6">
+                          <select id="choncan" class="selectpicker form-control">
+                            <optgroup label="1 Phòng ngủ">
+                              <option value="A">Căn hộ A - 49.77m²</option>
+                            </optgroup>
+                            <optgroup label="2 Phòng ngủ">
+                              <option value="B1">Căn hộ B1 - 74.04m²</option>
+                              <option value="B2">Căn hộ B2 - 72.12m²</option>
+                              <option value="B3">Căn hộ B3 - 68.98m²</option>
+                              <option value="B4">Căn hộ B4 - 71.24m²</option>
+                              <option value="B5">Căn hộ B5 - 64.78m²</option>
+                              <option value="B6">Căn hộ B6 - 63.37m²</option>
+                              <option value="B7">Căn hộ B7 - 72.29m²</option>
+                              <option value="B8">Căn hộ B8 - 70.49m²</option>
+                            </optgroup>
+                            <optgroup label="3 Phòng ngủ">
+                              <option value="C1">Căn hộ C1 - 95.32m²</option>
+                              <option value="C2">Căn hộ C1 - 90.32m²</option>
+                              <option value="C3">Căn hộ C1 - 119.34m²</option>
+                            </optgroup>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-7">
+                          <img id="layoutcanho" style="width: 100%; height:auto" src="img/layout/canho-A-2D.png" alt="">
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-5">
+                          <ul id="chitietcanho" class="list-group">
+                            <li class="list-group-item">
+                              DT tim tường
+                              <span class="pull-right">45,13m² -&nbsp;45,81m²</span>
+                            </li>
+                            <li class="list-group-item">
+                              DT thông thủy
+                              <span class="pull-right">45,13m² -&nbsp;45,81m²</span>
+                            </li>
+                            <li class="list-group-item">
+                              Phòng khách
+                              <span class="pull-right">13.92m²</span>
+                            </li>
+                            <li class="list-group-item">
+                              Bếp
+                              <span class="pull-right">4.86m²</span>
+                            </li>
+                            <li class="list-group-item">
+                              Lô gia
+                              <span class="pull-right">2.34m²</span>
+                            </li>
+                            <li class="list-group-item">
+                              Sân phơi
+                              <span class="pull-right">1.08m²</span>
+                            </li>
+                            <li class="list-group-item">
+                              Phòng ngủ
+                              <span class="pull-right">13.26m²</span>
+                            </li>
+                            <li class="list-group-item">
+                              Vệ sinh 1
+                              <span class="pull-right">4.48m²</span>
+                            </li>
+                            <li class="list-group-item">
+                              DT phụ
+                              <span class="pull-right">5.28m²</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                    </div>
+                  </form>
+                </div>
+              </div>
+
             </div>
-            <div class="tab-pane fade" id="ch-2pn" role="tabpanel" aria-labelledby="nav-profile-tab">
-              <img style="width: 100%; height:auto" src="img/sample/canho2pn.jpg" alt="">
+            <div class="tab-pane fade" id="tabmatbang" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <div class="form-group">
+                <br/>
+                <div class="row">
+                  <!-- <label class="control-label col-md-3 text-right" for="">Chọn căn hộ:</label> -->
+                  <div class="col-md-4 col-sm-6">
+                    <select id="chonmatbang" class="selectpicker form-control">
+                      <option value="tang-1">TẦNG 1</option>
+                      <option value="tang-2">TẦNG 2</option>
+                      <option value="tang-4">TẦNG 4</option>
+                      <option value="tang-5">TẦNG 5</option>
+                      <option value="tang-6-33" selected>TẦNG 6-33</option>
+                      <option value="tang-34">TẦNG 34</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <img id="matbang" style="width: 100%; height:auto" src="img/matbang/tang-6-33.png" alt="">
+                  </div>
+                </div>
+
+              </div>
             </div>
-            <div class="tab-pane fade" id="ch-3pn" role="tabpanel" aria-labelledby="nav-contact-tab">
-              <img style="width: 100%; height:auto" src="img/sample/canho2pn.jpg" alt="">
+            <div class="tab-pane fade" id="tabnhamau" role="tabpanel" aria-labelledby="nav-contact-tab">
+              <div id="slideNhaMau" class="carousel slide container" data-interval="90000" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#slideNhaMau" data-slide-to="0" class="active"></li>
+                  <li data-target="#slideNhaMau" data-slide-to="1"></li>
+                  <li data-target="#slideNhaMau" data-slide-to="2"></li>
+                  <li data-target="#slideNhaMau" data-slide-to="3"></li>
+                  <li data-target="#slideNhaMau" data-slide-to="4"></li>
+                  <li data-target="#slideNhaMau" data-slide-to="5"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item text-center active">
+                    <img src="img/canhomau/phongkhach.jpg" alt="Charmington Iris - Nơi khởi nguồn, miền kết tụ">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>Ngay khi bước chân vào nhà thì phòng khách chính là nơi sẽ tạo được những ấn tượng đầu tiên.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="img/canhomau/phongngu.jpg" alt="Charmington Iris - Nơi khởi nguồn, miền kết tụ">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>Với thiết kế không gian mở và sự hài hòa về màu sắc khiến diện tích không gian phòng ngủ rộng rãi hơn.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="img/canhomau/nhabep.jpg" alt="Charmington Iris - Nơi khởi nguồn, miền kết tụ">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>Nhà bếp đẹp đạt mức độ toàn diện, đáp ứng đầy đủ các sản phẩm hỗ trợ việc nội trợ </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="img/canhomau/phongtam.jpg" alt="Charmington Iris - Nơi khởi nguồn, miền kết tụ">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>Phòng tắm, nơi mà không ít người trong chúng ta dùng để làm nơi suy nghĩ, nơi thư giãn.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="img/canhomau/phongkhach2.jpg" alt="Charmington Iris - Nơi khởi nguồn, miền kết tụ">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>Ngay khi bước chân vào nhà thì phòng khách chính là nơi sẽ tạo được những ấn tượng đầu tiên.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#slideNhaMau" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#slideNhaMau" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
             </div>
           </div>
           <!-- <img style="width: 80%; height: auto" src="img/sample/canho1-3pn.jpg" alt="">
@@ -341,6 +500,48 @@
           <h2 class="section-heading text-uppercase">Tiện ích nội khu</h2>
           <img style="width: 80%; height: auto" src="img/sample/tienichnoikhu.jpg" alt="">
         </div>
+        <div class="col-sm-12 col-md-4">
+          <ul>
+            <li>CỔNG</li>
+            <li>ĐÀI PHUN NƯỚC</li>
+            <li>CÔNG VIÊN</li>
+            <li>LỐI LÊN XUỐNG NHÀ XE</li>
+            <li>KHU BBQ</li>
+            <li>SÂN BÓNG RỔ</li>
+            <li>HỒ BƠI</li>
+            <li>SẢNH</li>
+            <li>KHU ĐỂ XE</li>
+            <li>PHÒNG SINH HOẠT CỘNG ĐỒNG</li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <ul>
+            <li>Y TẾ</li>
+            <li>HAIR SALON</li>
+            <li>NHÀ TRẺ</li>
+            <li>CÀ PHÊ</li>
+            <li>MÁY ATM</li>
+            <li>GYM</li>
+            <li>SIÊU THỊ MINI</li>
+            <li>SHOP</li>
+            <li>CÔNG VIÊN DỌC BỜ SÔNG</li>
+            <li>SÔNG</li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <ul>
+            <li>BÃI ĐỂ XE TRÊN LẦU</li>
+            <li>YOGA</li>
+            <li>SPA</li>
+            <li>KHOÁ TỪ, SỐ CHO MỖI CĂN HỘ</li>
+            <li>VIDEO CALL</li>
+            <li>VƯỜN TRÊN CAO</li>
+            <li>CỬA CHỐNG CHÁY</li>
+            <li>THANG MÁY THẺ TỪ</li>
+            <li>HỆ THỐNG NƯỚC NÓNG</li>
+            <li>CAMERA AN NINH</li>
+          </ul>
+        </div>
       </div>
   </section>
 
@@ -348,24 +549,24 @@
   <section id="doitac" class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-4 col-sm-6">
           <a href="#">
             <img style="margin-top: 25px;" class="img-fluid d-block mx-auto" src="img/logos/vcr.jpg" alt="">
           </a>
         </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-4 col-sm-6">
           <a href="#">
             <img class="img-fluid d-block mx-auto" src="img/logos/ttc.png" alt="">
           </a>
         </div>
-        <div class="col-md-3 col-sm-6">
+        <!-- <div class="col-md-4 col-sm-6">
           <a href="#">
             <img class="img-fluid d-block mx-auto" src="img/logos/acb.png" alt="">
           </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
+        </div> -->
+        <div class="col-md-4 col-sm-6">
           <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/conteccons.png" alt="">
+            <img class="img-fluid d-block mx-auto" src="img/logos/conteccons.png" alt="Thương hiệu đã trở thành bảo chứng chất lượng cho những công trình mang đẳng cấp quốc tế: The Landmark 81, tòa nhà cao nhất Việt Nam và cao thứ 8 trên thế giới; The Spirit of Saigon, GoldMark City, TimesCity Parkhill, Vinhomes Central Park, Worldon...">
           </a>
         </div>
       </div>
@@ -590,6 +791,71 @@
     document.getElementById('close-contactform').onclick = function () {
       Animate(elem, 'left', 800, 0, -265);
       opened = false;
+    }
+    $(function () {
+      var dataCanHo = {
+        "A": {
+          "DT Tim tường": "49.23M² - 49.77M²", "DT Thông thủy": "45,13m² - 45,81m²", "Phòng khách": "13.92m²", "Bếp": "4.86m²", "Lô gia": "2.34m²", "Sân phơi": "1.08m²", "Phòng ngủ": "13.26m²", "Vệ sinh 1": "4.48m²", "DT phụ": "5.28m²",
+        },
+        "B1": {
+          "DT Tim tường": "73.60M² - 74.40M²", "DT Thông thủy": "66.78m² - 70.25m²", "Phòng khách": "15m²", "Bếp": "5.37m²", "Lô gia": "2.43m²", "Sân phơi": "1.08m²", "Phòng ngủ 1": "10.74m²", "Phòng ngủ 2": "16.27m²", "Vệ sinh 1": "4.68m²", "Vệ sinh 2": "3.60m²", "DT phụ": "8.09m²",
+        },
+        "B2": {
+          "DT Tim tường": "71.16M² - 72.12M²", "DT Thông thủy": "63.87m² - 64.83m²", "Phòng khách": "13.75m²", "Bếp": "4.98m²", "Lô gia": "2.43m²", "Sân phơi": "2.43m²", "Phòng ngủ 1": "13.46m²", "Phòng ngủ 2": "13.05m²", "Vệ sinh 1": "4.32m²", "Vệ sinh 2": "3.44m²", "DT phụ": "7.65m²",
+        },
+        "B3": {
+          "DT Tim tường": "m²", "DT Thông thủy": "m²", "Phòng khách": "m²", "Bếp": "m²", "Lô gia": "m²", "Sân phơi": "m²", "Phòng ngủ 1": "m²", "Phòng ngủ 2": "m²", "Vệ sinh 1": "m²", "Vệ sinh 2": "m²", "DT phụ": "m²",
+        },
+        "B4": {
+          "DT Tim tường": "m²", "DT Thông thủy": "m²", "Phòng khách": "m²", "Bếp": "m²", "Lô gia": "m²", "Sân phơi": "m²", "Phòng ngủ 1": "m²", "Phòng ngủ 2": "m²", "Vệ sinh 1": "m²", "Vệ sinh 2": "m²", "DT phụ": "m²",
+        },
+        "B5": {
+          "DT Tim tường": "m²", "DT Thông thủy": "m²", "Phòng khách": "m²", "Bếp": "m²", "Lô gia": "m²", "Sân phơi": "m²", "Phòng ngủ 1": "m²", "Phòng ngủ 2": "m²", "Vệ sinh 1": "m²", "Vệ sinh 2": "m²", "DT phụ": "m²",
+        },
+        "B6": {
+          "DT Tim tường": "m²", "DT Thông thủy": "m²", "Phòng khách": "m²", "Bếp": "m²", "Lô gia": "m²", "Sân phơi": "m²", "Phòng ngủ 1": "m²", "Phòng ngủ 2": "m²", "Vệ sinh 1": "m²", "Vệ sinh 2": "m²", "DT phụ": "m²",
+        },
+        "B7": {
+          "DT Tim tường": "m²", "DT Thông thủy": "m²", "Phòng khách": "m²", "Bếp": "m²", "Lô gia": "m²", "Sân phơi": "m²", "Phòng ngủ 1": "m²", "Phòng ngủ 2": "m²", "Vệ sinh 1": "m²", "Vệ sinh 2": "m²", "DT phụ": "m²",
+        },
+        "B8": {
+          "DT Tim tường": "m²", "DT Thông thủy": "m²", "Phòng khách": "m²", "Bếp": "m²", "Lô gia": "m²", "Sân phơi": "m²", "Phòng ngủ 1": "m²", "Phòng ngủ 2": "m²", "Vệ sinh 1": "m²", "Vệ sinh 2": "m²", "DT phụ": "m²",
+        },
+        "C1": {
+          "DT Tim tường": "m²", "DT Thông thủy": "m²", "Phòng khách": "m²", "Bếp": "m²", "Lô gia": "m²", "Sân phơi": "m²", "Phòng ngủ": "m²", "Vệ sinh 1": "m²", "DT phụ": "m²",
+        },
+        "C2": {
+          "DT Tim tường": "m²", "DT Thông thủy": "m²", "Phòng khách": "m²", "Bếp": "m²", "Lô gia": "m²", "Sân phơi": "m²", "Phòng ngủ": "m²", "Vệ sinh 1": "m²", "DT phụ": "m²",
+        },
+        "C3": {
+          "DT Tim tường": "m²", "DT Thông thủy": "m²", "Phòng khách": "m²", "Bếp": "m²", "Lô gia": "m²", "Sân phơi": "m²", "Phòng ngủ": "m²", "Vệ sinh 1": "m²", "DT phụ": "m²",
+        }
+      }
+      var _layoutName = "A", _layoutIdx = 0, _matbangName = "tang-6-33";
+      $("#choncan").change(function (e) {
+        _layoutName = $(this).val() || "A";
+        _layoutIdx = $(this).prop('selectedIndex') || 0;
+
+        $("#layoutcanho").attr('src', 'img/layout/canho-' + _layoutName + '-2D.png');
+        $("#chitietcanho").html(buildDetail(dataCanHo[_layoutName]))
+      })
+
+      $("#chonmatbang").change(function (e) {
+        _matbangName = $(this).val() || "tang-6-33";
+        $("#matbang").attr('src', 'img/matbang/' + _matbangName + '.png');
+        console.log(22222, 'img/matbang/' + _matbangName + '.png')
+      })
+    })
+
+    function buildDetail(data) {
+      var _d = "";
+      if (data) {
+        for (var i in data) {
+          // console.log(i, data[i]);
+          _d += '<li class="list-group-item">' + i + '<span class="pull-right">' + data[i] + '</span></li>'
+        }
+      }
+      return _d;
     }
   </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
