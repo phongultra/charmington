@@ -2,7 +2,7 @@
     width: auto;
 }
 #slideNhaMau .carousel-item img{
-    height: 40vh;
+    height: 60vh;
 }
 @media (min-width: 769px) {
     .carousel-item img{
@@ -16,6 +16,9 @@
     .carousel-item img{
         height: 70vh;
    }
+   #slideNhaMau .carousel-item img{
+    height: 40vh;
+}
    .hotline-top{
        display: block
    }
@@ -39,7 +42,7 @@
 }
 */
 body {
-    color: #1d2942;
+    /* color: #1d2942; */
     font-family: 'Muli', sans-serif;
 }
 .navbar.navbar-shrink .navbar-brand img.img-responsive{
