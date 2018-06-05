@@ -13,6 +13,11 @@
     display: none;
 }
 @media (max-width: 768px) {
+    section h2.section-heading {
+        font-size: 28px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
     .carousel-item img{
         height: 70vh;
    }
@@ -369,3 +374,7 @@ section h3.section-subheading {
     padding: 20px;
 }
 /* Contact form - End */
+
+.control-label{
+    margin-top: 5px;
+}
