@@ -1,5 +1,5 @@
 #mainNav {
-    background-color: #484a4b;
+    background-color: #484a4be8;
 }
 #tabMatBang.tab-content {
     background-color: #dededa;
@@ -179,7 +179,7 @@ header.masthead {
 }
 @media (min-width: 992px){
     #mainNav {
-        background-color: #484a4b;
+        background-color: #484a4be8;
    }
 }
 .hotline-pop-title{
