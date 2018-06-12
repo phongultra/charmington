@@ -108,6 +108,12 @@ var easeOutBounce = function (x, t, b, c, d) {
       _matbangName = $(this).val() || "tang-6-33";
       $("#matbang").attr('src', 'img/matbang/' + _matbangName + '.png');
     })
+
+    //bat su kien load
+    $(window).load(function() {
+      // Run code
+      console.log("load ne")
+    });
   })
 
   function buildDetail(data) {
@@ -119,7 +125,11 @@ var easeOutBounce = function (x, t, b, c, d) {
     }
     return _d;
   }
+  
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
   gtag('config', 'UA-119873422-1');
+
+
+  
