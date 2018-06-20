@@ -100,7 +100,7 @@ var easeOutBounce = function (x, t, b, c, d) {
       _layoutName = $(this).val() || "A";
       _layoutIdx = $(this).prop('selectedIndex') || 0;
 
-      $("#layoutcanho").attr('src', 'img/layout/canho-' + _layoutName + '-2D.png');
+      $("#layoutcanho").attr('src', 'img/layout/new/canho-' + _layoutName + '-2D.png');
       $("#chitietcanho").html(buildDetail(dataCanHo[_layoutName]))
     })
 
