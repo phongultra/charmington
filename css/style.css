@@ -30,7 +30,7 @@
 }
 @media (min-width: 769px) {
     .carousel-item img{
-        height: 100vh;
+        /* height: 100vh; */
    }
 }
 .hotline-top{
